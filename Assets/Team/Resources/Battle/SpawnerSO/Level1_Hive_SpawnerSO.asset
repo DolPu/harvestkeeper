@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 579089d597b5b2b4c8af44465ed62ae7, type: 3}
+  m_Name: Level1_Hive_SpawnerSO
+  m_EditorClassIdentifier: 
+  name_id: hive_spawner_name
+  des_id: hive_spawner_des
+  prefab: {fileID: 4712509328046221677, guid: 6ec0daf6322781848adaecc6c4a2a8a8, type: 3}
+  weight: 1
+  SpawnDatas:
+  - SpawnerTypeEnum: 1
+    EnemySO: {fileID: 11400000, guid: 7d7965001aac31c47a752c16b43a13e0, type: 2}
+    time: 5
+    amount: 1
+    capacity: 3

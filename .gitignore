@@ -61,3 +61,5 @@ crashlytics-build.properties
 .idea/
 UserSettings/Layouts/default-2021.dwlt
 UserSettings/EditorUserSettings.asset
+Assets/LocalOnly/
+Assets/LocalOnly.meta
